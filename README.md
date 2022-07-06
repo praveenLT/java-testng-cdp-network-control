@@ -1,4 +1,4 @@
-# Java TestNG Selenium 
+# How to emulate network control using CDP in Java-TestNG automation test on LambdaTest
 
 ### Environment Setup
 

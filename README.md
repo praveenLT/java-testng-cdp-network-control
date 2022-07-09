@@ -34,7 +34,14 @@ Set LambdaTest Username and Access Key in environment variables.
    $ set LT_USERNAME="YOUR_USERNAME"
    $ set LT_ACCESS_KEY="YOUR ACCESS KEY"
    ```
-    
+### Set network conditions
+
+To set network conditions, devTools can be used like so:
+
+```java
+devTools.send(Network.emulateNetworkConditions(false, 0, 2 * 1024 * 1024, 2 * 1024 * 1024, Optional.empty()));
+```
+
 ### Running Tests
 
 ```
